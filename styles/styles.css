@@ -73,5 +73,197 @@ nav li a{
     font-weight: bold;
     font-size: 42px;
 }
+/* Banner styles */
+.banner-title{
+    font-size:65px;
+    font-weight: bold;
+    color:black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height:100%;
+}
+.btn-focused{
+    background-color: #4E47FF;
+    color: white;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    border-radius: 8px;
+    margin-top: 1rem;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+/*about section styles */
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 2rem;
+    gap:2rem;
+}
+.left{
+    flex: 1;
+}
+.right{
+    flex: 1;
+}
+.action-button{
+    background-color: #4E47FF;
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
 
+}
+.had-ing{
+    color: #252432;
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 50px;
+}
+.heading{
+    background-color: #d7d6e7;
+    max-width: 1140px;
+    margin: 0 auto;
+    border-radius: 24px;
+    text-align: center;
+}
+.item-title{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+    margin:40px 0 10px 0;
+    text-align: center;
+}
+
+.item-description{
+    font-size: 20px;
+    opacity: 50%;
+    padding-top: 1px;
+    text-align: center;
+}
+.about-description{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+/*skills section styles */
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 1.16);
+}
+.skill-title{
+    font-size: 24px;
+    font-weight: bold;
+}
+.pic{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.contact{
+    padding: 2rem;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+.contact form{
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.contact input,
+.contact textarea{
+    padding: 0.7rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 100%;
+}
+.submit{
+    background-color: #4E47FF;
+    color: white;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+.title-text{
+    font-size: 97px;
+    font-weight: bold;
+    color: #252432;
+}
+.footer-content{
+    text-align: center;
+}
+.footer-title{
+    font-weight: bold;
+    color: #4E47FF;
+    font-size: 100px;
+}
+.footer-text{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    color: #8987A1;
+
+}
+.footer-description{
+    font-size: 20px;
+    color: #8987A1;
+}
+.star{
+    display: flex;
+    align-items: self-start;
+    gap: 5px;
+    margin-bottom: 1rem;
+}
+
+.Name{
+    font-size: 16px;
+    font-weight: bold;
+}
+.Date{
+    font-size: 14px;
+    color: #8987A1;
+}
 
